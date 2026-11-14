@@ -27,12 +27,32 @@
 #     print("c is the largest number")
 
 
-marks=int(input("enter a marks:"))
-if marks > 90:
-    print("A grade")
-elif marks < 90 and marks > 70:
-    print("B grade")
-elif marks < 70 and marks > 40:
-    print("C grade")
-else:
-    print("fail")
+# marks=int(input("enter a marks:"))
+# if marks > 90:
+#     print("A grade")
+# elif marks < 90 and marks > 70:
+#     print("B grade")
+# elif marks < 70 and marks > 40:
+#     print("C grade")
+# else:
+#     print("fail")
+
+day = int(input("Enter a number (1-7): "))
+
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")
+    case _:
+        print("Invalid Day")
