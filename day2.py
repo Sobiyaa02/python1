@@ -77,7 +77,7 @@
 # units=int(input("enter a number:"))
 # if units < 100:
 #     print(units*2)
-# elif units > 100:
+# elif units > 100:  # 2nd elif wont run because the first elif is always true, so it will not check the second elif
 #     print(units*3)
 # elif units > 200:
 #     print(units*5)
@@ -100,12 +100,22 @@
 # else:
 #     print("no discount")
 
-number=int(input("enter a number:"))
-if number % 3 == 0 and number % 5 == 0:
-    print("Divisible by both 3 and 5")
-elif number % 3 == 0:
-    print("Divisible only by 3 ")
-elif number % 5 == 0:
-    print("Divisible only by 5")
-else:
-    print("Not Divisible by either ")
+# number=int(input("enter a number:"))
+# if number % 3 == 0 and number % 5 == 0:
+#     print("Divisible by both 3 and 5")
+# elif number % 3 == 0:
+#     print("Divisible only by 3 ")
+# elif number % 5 == 0:
+#     print("Divisible only by 5")
+# else:
+#     print("Not Divisible by either ")
+
+# for loop , while loop , do while loop 
+
+#(start,stop,step)
+
+# for i in range(0,10): 
+#     print(i+2)
+# #2,3,4,5,6,7,8,9,10,11
+
+# print all even numbers from 1 to 30
