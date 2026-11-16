@@ -119,3 +119,41 @@
 # #2,3,4,5,6,7,8,9,10,11
 
 # print all even numbers from 1 to 30
+
+# for i in range(0,30):
+#     if i == 10:
+#         pass
+#     print(i)
+
+#print only the values multiple by 5
+
+# for i in range(0,50):
+#     if i % 5 == 0:
+#         print(i+1)
+
+
+# num=int(input("enter a number:"))
+# for i in range(num,0,-1):
+#      if i % 5 == 0:
+#       print(i)
+
+#sum of first 10 numbers
+
+# for i in range(0,10):
+#     if i + 1 :
+#         print(i+i)
+
+# sum=0
+# for i in range(1,11):
+#     if i % 3 == 0:
+#         sum=sum+i
+# print(sum)
+
+
+for i in range(1,21):
+    if i % 2 == 0:
+        print(i,"even number")
+    else:
+        print(i,"odd number")
+    
+    
