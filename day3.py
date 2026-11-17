@@ -60,35 +60,36 @@
 #     else:
 #         print("Game Over")
 
-# sum=0
-# for i in range(5):
+# totalmarks=0
+# subjects=int(input("enter number of subjects:"))
+# for i in range(subjects):
 #     marks=int(input("enter a number:"))
-#     if marks > 90 and marks < 100:
+#     if marks >= 90 and marks <= 100:
 #         print("A grade")
-#         sum += 1
-#     elif marks > 75 and marks < 89:
+#         totalmarks=totalmarks+marks
+#     elif marks >= 75 and marks <= 89:
 #         print("B grade")
-#         sum +=1
-#     elif marks > 50 and marks < 74:
+#         totalmarks=totalmarks+marks
+#     elif marks >= 50 and marks <= 74:
 #         print("D grade")
-#         sum += 1
-#     elif marks > 35 and marks < 49:
+#         totalmarks=totalmarks+marks
+#     elif marks >= 35 and marks <= 49:
 #         print("D grade")
-#         sum += 1
+#         totalmarks=totalmarks+marks
 #     else:
 #         print("Fail")
-#         sum += 1
-# print("Total marks:",sum+1)
+#         totalmarks=totalmarks+marks
+# print("Total marks:",totalmarks)
 
               
-for i in range(1,100):
-    if i % 2 == 0 and i % 3 == 0:
-        print("Both")
-    elif i % 2 == 0:
-        print("Two")
-    elif i % 3 == 0:
-        print("Three")
-    else:
-        print(i)
+# for i in range(1,100):
+#     if i % 2 == 0 and i % 3 == 0:
+#         print("Both")
+#     elif i % 2 == 0:
+#         print("Two")
+#     elif i % 3 == 0:
+#         print("Three")
+#     else:
+#         print(i)
 
     
