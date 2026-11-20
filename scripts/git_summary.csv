@@ -1,0 +1,4 @@
+Author,Additions,Deletions,Net LOC,Commits,Avg Add/Commit,Avg Del/Commit,Avg Total/Commit,Total Changes,Contribution %,Commit %,Churn Ratio (del/add)
+sobiyaa02,367,81,286,11,33.36,7.36,40.73,448,85.01,73.33,0.22
+rkgit-1530,59,20,39,4,14.75,5.0,19.75,79,14.99,26.67,0.34
+TOTAL,426,101,325,15,,,,527,100%,100%,0.24
